@@ -1,0 +1,2 @@
+PyQt5==5.11
+matplotlib==2.2.2
