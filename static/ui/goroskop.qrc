@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="background">
+    <file>fon.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>../../../../Downloads/G-lune.png</file>
+  </qresource>
+</RCC>

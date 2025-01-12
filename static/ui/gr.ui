@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>G-Lune</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1921</width>
+      <height>1051</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">beckground-image: url(:/background/fon.png);
+background-image: url(:/background/fon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>333</y>
+      <width>1081</width>
+      <height>138</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto Light</family>
+      <pointsize>28</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 7 */
+
+position: absolute;
+width: 1081px;
+height: 138px;
+left: 419px;
+top: 333px;
+
+background: linear-gradient(90deg, rgba(238, 240, 252, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(238, 240, 252, 0) 100%), #E8CAEC;
+box-shadow: 0px 4px 3.8px rgba(0, 0, 0, 0.25);
+border-radius: 28px;
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Генерация гороскопа</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>518</y>
+      <width>1081</width>
+      <height>138</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto Light</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 7 */
+
+position: absolute;
+width: 1081px;
+height: 138px;
+left: 419px;
+top: 333px;
+
+background: linear-gradient(90deg, rgba(238, 240, 252, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(238, 240, 252, 0) 100%), #E8CAEC;
+box-shadow: 0px 4px 3.8px rgba(0, 0, 0, 0.25);
+border-radius: 28px;
+</string>
+    </property>
+    <property name="text">
+     <string>Проверка совместимости</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>635</x>
+      <y>703</y>
+      <width>650</width>
+      <height>83</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto Light</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 9 */
+
+position: absolute;
+width: 650px;
+height: 83px;
+left: 635px;
+top: 703px;
+
+background: linear-gradient(90deg, rgba(238, 240, 252, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(238, 240, 252, 0) 100%), #E8CAEC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 28px;
+</string>
+    </property>
+    <property name="text">
+     <string>Все пользователи</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>635</x>
+      <y>833</y>
+      <width>650</width>
+      <height>83</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto Light</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 9 */
+
+position: absolute;
+width: 650px;
+height: 83px;
+left: 635px;
+top: 703px;
+
+background: linear-gradient(90deg, rgba(238, 240, 252, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(238, 240, 252, 0) 100%), #E8CAEC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 28px;
+</string>
+    </property>
+    <property name="text">
+     <string>Все совместимости</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="goroskop.qrc"/>
+ </resources>
+ <connections/>
+</ui>
